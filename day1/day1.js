@@ -14,3 +14,8 @@ for (let [i, row] of expenseReport.entries()) {
 		}
 	}
 }
+
+/*
+ * This is a pretty naive way of doing this problem, but the problem set is small enough to not matter.
+ * Some simple optimizations are to filter out all values below the target (2020), and to stop processing when the answer is found.
+ */
